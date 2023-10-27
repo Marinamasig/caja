@@ -1,0 +1,50 @@
+#estiloglobales
+*{ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{ background-color: aquamarine;
+
+}
+
+.cuadrado{
+    height: 120px;
+    width: 120px;
+    background-color: blueviolet;
+    border: solid 4px red;
+    padding: 15px 20px;
+    
+
+}
+div {
+    display: inline;
+}
+.rectangulo{
+    height: 200px;
+    width: 120px;
+    background-color: blueviolet;
+    border: solid 4px red;
+    padding: 15px 20px;
+    margin: 5px;
+
+}
+.circulo{
+    border-radius: 120%;
+    height: 120%;
+    width: 120%;
+    background-color: blueviolet;
+    border: solid 4px red;
+    padding: 15px 20px;
+}
+.circulo:hover{
+background-color: yellow;
+}
+button{
+    display: block;
+    transform: translateX(28px);
+    margin: 20px;
+    background-color: rgb(200, 110, 232);
+    border: dotted 1px yellowgreen ;
+    padding: 3px;
+
+}
